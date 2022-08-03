@@ -1,7 +1,0 @@
-make.exe test --dry-run --keep-going --print-directory
-make.exe: Entering directory `c:/Users/nahus/OneDrive - purdue.edu/Semester 4.5 (Summer 2022)/cpp/test'
-g++  -g -Wall -o exec L24.o
-./exec
- 
-make.exe: Leaving directory `c:/Users/nahus/OneDrive - purdue.edu/Semester 4.5 (Summer 2022)/cpp/test'
- 
