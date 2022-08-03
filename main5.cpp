@@ -41,7 +41,7 @@ int main (){
 
     int n;
     cin >> n;
-    vector<int> n3 [];
+    vector<int> n3 (3);
 
     solve(n);
 
