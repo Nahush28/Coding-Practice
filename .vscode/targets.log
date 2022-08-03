@@ -6,8 +6,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
+ 
 
-# Make data base, printed on Wed Aug 03 14:30:09 2022
+# Make data base, printed on Wed Aug 03 15:34:11 2022
 
 # Variables
 
@@ -31,8 +32,7 @@ HOMEDRIVE = C:
 CURDIR := c:/Users/nahus/OneDrive - purdue.edu/Semester 4.5 (Summer 2022)/cpp/test
 # default
 SHELL := C:/Program Files/Git/bin/sh.exe
-# env 
-ironment
+# environment
 CLION = C:\Program Files\JetBrains\CLion 2021.3.2\bin;
 # environment
 WINDIR = C:\WINDOWS
@@ -55,7 +55,7 @@ TMP = C:\Users\nahus\AppData\Local\Temp
 # environment
 PROGRAMW6432 = C:\Program Files
 # makefile (from `makefile', line 4)
-OBJS = main5.o
+OBJS = L24.o
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
@@ -117,7 +117,7 @@ MAKECMDGOALS := all
 # environment
 ONEDRIVECOMMERCIAL = C:\Users\nahus\OneDrive - purdue.edu
 # makefile (from `makefile', line 3)
-EXEC = main.exe
+EXEC = exec
 # default
 MAKE_VERSION := 3.81
 # makefile
@@ -175,8 +175,7 @@ LC_ALL = C
 # automatic
 ^F = $(notdir $^)
 # makefile (from `makefile', line 5)
-DEPS 
- = 
+DEPS = 
 # default
 SUFFIXES := 
 # environment
@@ -198,23 +197,24 @@ VSCODE_PID = 13268
 # environment
 USERDOMAIN_ROAMINGPROFILE = NAHUSHS-XPS
 # variable set hash-table stats:
-# Load=92/1024=9%, Rehash=0, Collisions=11/113=10%
+# Load=92/1024=9%, Rehash=0, Collisions=12/119=10%
 
 # Pattern-specific Variable Values
 
-# No pattern-specific variable values.
+# No pattern-specific var 
+iable values.
 
 # Directories
 
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1644126861): 32 files, no impossibilities.
 # C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1652472514): 155 files, no impossibilities.
-# . (key c:/Users/nahus/OneDrive - purdue.edu/Semester 4.5 (Summer 2022)/cpp/test, mtime 1659557890): 10 files, 1 impossibilities.
+# . (key c:/Users/nahus/OneDrive - purdue.edu/Semester 4.5 (Summer 2022)/cpp/test, mtime 1659562444): 14 files, 1 impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
 # C:\WINDOWS (key C:/WINDOWS, mtime 1659402767): 105 files, no impossibilities.
 # C:\Program Files\Git\bin (key C:/Program Files/Git/bin, mtime 1643564302): 5 files, no impossibilities so far.
 # C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1659463455): 2909 files, no impossibilities.
 
-# 3216 files, 1 impossibilities in 7 directories.
+# 3220 files, 1 impossibilities in 7 directories.
 
 # Implicit Rules
 
@@ -227,28 +227,48 @@ USERDOMAIN_ROAMINGPROFILE = NAHUSHS-XPS
 
 # Files
 
-all: main5.o
+all: L24.o
 #  Command-line target.
 #  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
 #  File does not exist.
-#  File has not been updated.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := L24.o
+# automatic
+# | := 
+# automatic
+# < := L24.o
+# automatic
+# ^ := L24.o
+# automatic
+# ? := L24.o
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+# Load=8/32=25%, Rehash=0, Collisions=4/14=29%
 #  commands to execute (from `makefile', line 11):
 	$(GCC) $(CFLAGS) -o $(EXEC) $(OBJS)
 	
 
-# Not a target:
+# Not a targ 
+et:
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-main5.o:
+L24.o:
 #  Implicit rule search has been done.
-#  File does not exist.
-#  File has not been updated.
+#  Last modified 2022-08-03 15:34:04
+#  File has been updated.
+#  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -256,14 +276,15 @@ test: all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `makefile', line 14):
-	$(EXEC)
+#  commands to execute (from `makefile',  
+line 14):
+	./$(EXEC)
 	
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-01 16:58:59
+#  Last modified 2022-08-03 15:34:10
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -279,12 +300,13 @@ clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `makefile', line 17):
-	rm -f *.o *.exe
+#  c 
+ommands to execute (from `makefile', line 17):
+	rm -f *.o *.exe $(EXEC)
 	
 
 # files hash-table stats:
-# Load=7/1024=1%, Rehash=0, Collisions=0/23=0%
+# Load=7/1024=1%, Rehash=0, Collisions=0/24=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -292,13 +314,10 @@ clean:
 # No general (`VPATH' variable) search path.
 
 # # of strings in strcache: 1
-# # of strcach 
-make.exe: *** No rule to make target `main5.o', needed by `all'.  Stop.
-
-e buffers: 1
+# # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Aug 03 14:30:09 2022
+# Finished Make data base on Wed Aug 03 15:34:11 2022
 
  

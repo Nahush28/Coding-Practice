@@ -1,7 +1,7 @@
 GCC = g++ 
 CFLAGS = -g -Wall
-EXEC = main.exe
-OBJS = main5.o
+EXEC = exec
+OBJS = L24.o
 DEPS = 
 
 %.o: %.c $(DEPS)
@@ -11,7 +11,7 @@ all: $(OBJS)
 	$(GCC) $(CFLAGS) -o $(EXEC) $(OBJS)
 
 test: all
-	$(EXEC)
+	./$(EXEC)
 
 clean:
-	rm -f *.o *.exe
+	rm -f *.o *.exe $(EXEC)
