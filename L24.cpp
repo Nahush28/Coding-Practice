@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "structs.h"
+#include "leetcode.cpp"
 
 using namespace std;
 
