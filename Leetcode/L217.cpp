@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include"../leetcode.cpp"
+#include"leetcode.cpp"
 
 using namespace std;
 
