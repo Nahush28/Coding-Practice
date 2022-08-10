@@ -28,3 +28,10 @@ void readVector(vector<int> &arr){
     //     cout << x << "\n";
     // }
 }
+
+void printVector(vector<int> &arr){
+    for(auto &x: arr){
+        cout << "arr: " << x << "\n";
+    }
+    cout << "\n";
+}
