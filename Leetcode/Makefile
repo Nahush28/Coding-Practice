@@ -1,7 +1,7 @@
 GCC = g++ 
 CFLAGS = -g -Wall
 EXEC = main
-OBJS = L118.o 
+OBJS = L29.o 
 DEPS = leetcode.cpp
 
 %.o: %.cpp $(DEPS)
